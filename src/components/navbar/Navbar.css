@@ -2,8 +2,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 170px;
+    margin: 20px 50px;
+   
 }
+
+.logo {
+    height: 50px; /* Adjust as needed */
+    width: 50px; /* Adjust as needed */
+    border-radius: 50%; /* Makes the logo circular */
+    object-fit: cover; /* Ensures the image fits within the circle */
+    float: left; /* Aligns the logo to the left */
+  }
 
 .nav-menu{
     display: flex;
@@ -21,4 +30,9 @@
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1);
     font-size: 22px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-connect:hover{
+    transform: scale(1.05);
 }
