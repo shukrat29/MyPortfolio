@@ -3,6 +3,12 @@ import "./Contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { MdAddCall } from "react-icons/md";
 import { MdLocationPin } from "react-icons/md";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faGithub,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
   const onSubmit = async (event) => {
@@ -57,6 +63,31 @@ const Contact = () => {
               <MdLocationPin />{" "}
               <p>42 Walz street, Rockdale NSW Australia 2216</p>
             </div>
+          </div>
+
+          <h2>Social Media</h2>
+          <div className="social-links">
+            <a
+              href="https://www.facebook.com/profile.php?id=100008699173238"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faFacebook} size="2x" />
+            </a>
+            <a
+              href="https://github.com/shukrat29"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faGithub} size="2x" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/shukra-tamang-73298126b/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedin} size="2x" />
+            </a>
           </div>
         </div>
 
