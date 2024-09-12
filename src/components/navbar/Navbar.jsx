@@ -50,6 +50,11 @@ const Navbar = () => {
               Contact
             </AnchorLink>
           </li>
+          <li>
+            <AnchorLink className="anchor-link" offset={50} href="#blog">
+              Blog
+            </AnchorLink>
+          </li>
         </ul>
       </div>
       <div className="nav-connect">
